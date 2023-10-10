@@ -82,7 +82,7 @@
 
 ### 1.2 根据不同的构架和平台下载相应的安装包
 
-![下载包](.\goStudy\下载包.png)
+![下载包](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/下载包.png)
 
 ### 1.3 安装
 
@@ -90,45 +90,45 @@
 
 ##### 1.3.1.1 双击安装包
 
-![win_install](.\goStudy\win\install.png)
+![win_install](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/install.png)
 
 ##### 1.3.1.2 点击 Next
 
-![win_setup1](.\goStudy\win\setup1.png)
+![win_setup1](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup1.png)
 
 ##### 1.3.1.3 点击 Next
 
-![win_setup2](.\goStudy\win\setup2.png)
+![win_setup2](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup2.png)
 
 ##### 1.3.1.4 设置安装路径, 建议使用 c:\go
 
-![win_setup3](.\goStudy\win\setup3.png)
+![win_setup3](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup3.png)
 
 ##### 1.3.1.5 开始进行安装, 点击 Install
 
-![win_setup4](.\goStudy\win\setup4.png)
+![win_setup4](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup4.png)
 
 ##### 1.3.1.6 等待安装完成
 
-![win_setup5](.\goStudy\win\setup5.png)
+![win_setup5](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup5.png)
 
 ##### 1.3.1.7 点击 是
 
-![win_setup6](.\goStudy\win\setup6.png)
+![win_setup6](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup6.png)
 
 ##### 1.3.1.8 等待安装完成
 
-![win_setup7](.\goStudy\win\setup7.png)
+![win_setup7](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup7.png)
 
 ##### 1.3.1.9 完成安装, 点击 Finish
 
-![win_setup8](.\goStudy\win\setup8.png)
+![win_setup8](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/setup8.png)
 
 #### 1.3.2 linux平台安装
 
 ##### 1.3.2.1 SSH登录linux主机
 
-![登录linux主机](.\goStudy\linux\0001_ssh.png)
+![登录linux主机](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0001_ssh.png)
 
 ##### 1.3.2.2 执行安装命令
 
@@ -136,7 +136,7 @@
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
 ```
 
-![登录linux主机](.\goStudy\linux\0002_setup.png)
+![登录linux主机](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0002_setup.png)
 
 ##### 1.3.2.3 设置环境变量
 
@@ -144,7 +144,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-![设置环境变量](.\goStudy\linux\0003_env.png)
+![设置环境变量](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0003_env.png)
 
 ##### 1.3.2.4 验证安装版本
 
@@ -152,7 +152,7 @@ export PATH=$PATH:/usr/local/go/bin
 go version
 ```
 
-![设置环境变量](.\goStudy\linux\0004_ver.png)
+![设置环境变量](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0004_ver.png)
 
 
 
@@ -171,47 +171,47 @@ go version
 echo %GOPATH%
 ```
 
-![win_gopath1](.\goStudy\win\gopath1.png)
+![win_gopath1](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath1.png)
 
 ##### 1.4.1.2 添加 GOPATH
 
 ##### 1.4.1.2.1 我的电脑->属性
 
-![win_gopath2](.\goStudy\win\gopath2.png)
+![win_gopath2](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath2.png)
 
 ##### 1.4.1.2.2 高级系统设置
 
-![win_gopath3](.\goStudy\win\gopath3.png)
+![win_gopath3](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath3.png)
 
 ##### 1.4.1.2.3 环境变量
 
-![win_gopath4](.\goStudy\win\gopath4.png)
+![win_gopath4](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath4.png)
 
 ##### 1.4.1.2.4 新建
 
-![win_gopath5](.\goStudy\win\gopath5.png)
+![win_gopath5](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath5.png)
 
 ##### 1.4.1.2.5 新建系统变量
 
 > 变量名 GOPATH
 > 变量值 d:\ws\ ( 设置为go项目地址 )
 
-![新建系统变量](.\goStudy\win\gopath6.png)
+![新建系统变量](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath6.png)
 
 ##### 1.4.1.2.6 选择 path 变量, 编辑
 
-![选择 path 变量, 编辑](.\goStudy\win\gopath7.png)
+![选择 path 变量, 编辑](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath7.png)
 
 ##### 1.4.1.2.7 添加go的安装目录和GOPATH目录
 
-![添加go的安装目录和GOPATH目录](.\goStudy\win\gopath8.png)
+![添加go的安装目录和GOPATH目录](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath8.png)
 
 ##### 1.4.1.2.8 在GOPATH目录下新建三个文件夹
 > bin 存放编译后生成的可执行文件
 > pkg 存放编译后生成的归档文件
 > src 存放源代码
 
-![在GOPATH目录下新建三个文件夹](.\goStudy\win\gopath9.png)
+![在GOPATH目录下新建三个文件夹](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/win/gopath9.png)
 
 
 
@@ -223,7 +223,7 @@ echo %GOPATH%
 echo $GOPATH
 ```
 
-![查看是否配置 GOPATH](.\goStudy\linux\0005_show_env.png)
+![查看是否配置 GOPATH](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0005_show_env.png)
 
 
 ##### 1.4.2.2 创建项目目录
@@ -235,7 +235,7 @@ echo $GOPATH
 mkdir -p /home/gopath /home/gopath/src /home/gopath/pkg /home/gopath/bin
 ```
 
-![创建项目目录](.\goStudy\linux\0006_mkdir.png)
+![创建项目目录](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0006_mkdir.png)
 
 ##### 1.4.2.3 添加环境变量
 
@@ -243,7 +243,7 @@ mkdir -p /home/gopath /home/gopath/src /home/gopath/pkg /home/gopath/bin
 echo "export GOROOT=/usr/local/go">>/etc/profile && echo "export GOPATH=/home/gopath">>/etc/profile && echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">>/etc/profile
 ```
 
-![添加环境变量](.\goStudy\linux\0007_set_env.png)
+![添加环境变量](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0007_set_env.png)
 
 ##### 1.4.2.4 使环境变量立即生效
 
@@ -251,7 +251,7 @@ echo "export GOROOT=/usr/local/go">>/etc/profile && echo "export GOPATH=/home/go
 source /etc/profile
 ```
 
-![使环境变量立即生效](.\goStudy\linux\0008_apply.png)
+![使环境变量立即生效](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0008_apply.png)
 
 ##### 1.4.2.5 验证环境变量
 
@@ -259,22 +259,22 @@ source /etc/profile
 go env|grep GOROOT && go env|grep GOPATH
 ```
 
-![验证环境变量](.\goStudy\linux\0009_show_env.png)
+![验证环境变量](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/linux/0009_show_env.png)
 
 ## 2. 第一个golang程序
 ### 2.1 进入 GOPATH 的 src 目录
 
-![](.\goStudy\hello\0001.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0001.png)
 
 ### 2.2 创建项目文件夹 hello
-![](.\goStudy\hello\0002.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0002.png)
 
 ### 2.3 进入项目文件夹
-![](.\goStudy\hello\0003.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0003.png)
 
 ### 2.4 创建 main.go 文件
 
-![](.\goStudy\hello\0004.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0004.png)
 
 ### 2.5 添加 代码
 
@@ -290,7 +290,7 @@ func main(){
 }
 ```
 
-![](.\goStudy\hello\0005.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0005.png)
 
 
 ### 2.6 初始化项目
@@ -299,7 +299,7 @@ func main(){
 go mod init
 ```
 
-![](.\goStudy\hello\0006.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0006.png)
 
 
 ### 2.7 编译代码
@@ -311,7 +311,7 @@ go mod init
 go build
 ```
 
-![](.\goStudy\hello\0007.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0007.png)
 
 
 ### 2.8 执行编译后的二进制文件
@@ -321,7 +321,7 @@ ls
 ./hello
 ```
 
-![](.\goStudy\hello\0008.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0008.png)
 
 ### 2.9 不生成二进制文件, 直接运行
 
@@ -329,7 +329,7 @@ ls
 go run main.go
 ```
 
-![](.\goStudy\hello\0009.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/hello/0009.png)
 
 
 ### 2.10 代码解析
@@ -351,19 +351,19 @@ func main(){// 主程序
 > VScode 安装教程参见：https://www.runoob.com/w3cnote/vscode-tutorial.html
 
 > 然后我们打开 VSCode 的扩展（Ctrl+Shift+P）：
-![](.\goStudy\vscode\0001.jpg)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/vscode/0001.jpg)
 
 > 搜索 go:
-![](.\goStudy\vscode\0002.jpg)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/vscode/0002.jpg)
 
 > 点击安装，安装完成后我们就可以使用代码提示、测试、调试等功能了。
-![](.\goStudy\vscode\0003.gif)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/vscode/0003.gif)
 
 ### GoLand
 > GoLand 是 Jetbrains 家族的 Go 语言 IDE，有 30 天的免费试用期。
 > 安装也很简单访问 Goland 的下载页面，根据你当期的系统环境三大平台（Mac、Linux、Windows）下载对应的软件。
 
-![](.\goStudy\goland\0001.jpg)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/goland/0001.jpg)
 
 ### LiteIDE
 > LiteIDE 是一款开源、跨平台的轻量级 Go 语言集成开发环境（IDE）。
@@ -374,7 +374,7 @@ func main(){// 主程序
 > 下载地址 ：http://sourceforge.net/projects/liteide/files/
 > 源码地址 ：https://github.com/visualfc/liteide
 
-![](.\goStudy\liteide\0001.png)
+![](https://github.com/zhangxx2015/goStudy/blob/main/goStudy/liteide/0001.png)
 
 
 
